@@ -1,5 +1,6 @@
 count = 0
 #this is for testing the linting thing in my app
+# thid if for another linting checking
 my_string = "Programiz"
 my_char = "r"
 
