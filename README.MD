@@ -1,4 +1,4 @@
-#Github Actions Prctice
+# Github Actions Prctice
 
 ## Concepts
 
