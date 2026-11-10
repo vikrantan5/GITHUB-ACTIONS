@@ -1,0 +1,28 @@
+# workflow
+# should have name
+name: Hello
+
+
+## onellas when workflow rns
+on:
+  workflow_dispatch: 
+# jobs
+# should be inside the workflow job can be one or more branch_protection_rule: ## job us an objecf
+jobs:
+# 1st job
+  say-hello:
+  #creates a ephermal container with ubuntu running
+    runs-on: ubuntu-latest
+    #the ephermal container  will have steps to execyte
+    steps:
+      - name: say hellotoeveryone
+        run: echo "hello-dosto"
+
+
+# steps
+# should nbe inside the job
+
+
+
+#actions
+# should be inside the steps
